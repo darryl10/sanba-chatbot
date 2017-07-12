@@ -1,0 +1,27 @@
+{
+  "name": "sanba-lunch-chatbot",
+  "version": "1.0.0",
+  "description": "A chatbot which you can interact with, to allow you to order food from a range of restaurants and get Sanba to deliver it right to your desk.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" &amp;&amp; exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sanba-lunch-chatbot"
+  },
+  "keywords": [
+    "sanba",
+    "lunch",
+    "chatbot"
+  ],
+  "author": "Sanba Development Team",
+  "license": "SEE LICENSE IN license.txt",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.1",
+    "request": "^2.81.0"
+  }
+}
